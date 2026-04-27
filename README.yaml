@@ -1,4 +1,4 @@
-name: Terraform Transit Gateway Module
+name: Terraform API Gateway VPC Link Module
 #logo: logo/logo.jpg
 
 license: "APACHE2"
@@ -8,10 +8,10 @@ copyrights:
     url: "https://cloudops.works"
     year: "2024"
 
-github_repo: cloudopsworks/terraform-module-aws-vpc-setup
+github_repo: cloudopsworks/terraform-module-aws-api-gateway-vpc-link
 
 description: |-
-  VPC Module for setting up transit gateway with ResourceAccessMananger support.
+  AWS module for creating API Gateway VPC Links that target load balancers with consistent Cloud Ops Works tagging.
 
 # Introduction to the project
 #introduction: |-
